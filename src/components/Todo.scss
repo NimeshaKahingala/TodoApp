@@ -1,0 +1,44 @@
+.input {
+    display: flex;
+    margin: 100px auto;
+    width: 600px;
+
+    .btn-add {
+        background-color: #ff4164;
+        border-radius: 15px;
+        color: white;
+        font-weight: 600;
+        height: 40px;
+        margin: 0 20px;
+        width: 100px;
+    }
+}
+
+.btn {
+    margin: 10px;
+}
+
+.todo-item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+
+    .text {
+        width: 200px;
+    }
+
+    input[type="text"] {
+        margin-right: 20px;
+        width: 200px;
+    }
+}
+
+.todo-text {
+    margin: 0 10px;
+}
+
+.date {
+    padding: 0 20px;
+}
